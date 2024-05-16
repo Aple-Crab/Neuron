@@ -122,6 +122,3 @@ def get_ship_visits():
     except Exception as e:
         return {'Frequency API error': str(e)}
 
-
-if __name__ == '__main__':
-    app.run(host=os.getenv("HOST"), port=os.getenv("PORT"))
